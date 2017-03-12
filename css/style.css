@@ -1,91 +1,88 @@
+/* Style główne - START */
 body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* Style główne - STOP */
+
+/* Style footer - START */
+
+section, footer {
+    text-align: center;
+    padding: 40px;
 }
 
+
+/* Style menu - START */
 #menu {
-  text-align: center;
-  background: #222;
-  
-}
-
-#menu .menu-item {
-  display: inline-block;
-  padding: 25px;
-  list-style: none;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 #menu ul {
-  margin: 0;
+    margin: 0;
+    text-align: center;
 }
 
-#menu .menu-item a{
-  text-decoration: none;
-  color: #fff;
+#menu ul .menu-item {
+    display: inline-block;
+    padding: 20px;
 }
 
-#menu .menu-item a:hover{
-  color: #999;
+#menu ul .menu-item a {
+    color: white;
+    text-decoration: none;
 }
+
+/* Style menu - STOP */
+
+/* Style header - START - ustalenie napisu idealnie na środku - top, align, translateY-50% */
 
 #header {
-  position: relative;
-  text-align: center;
+    
+position: relative;
+    
 }
 
-#header img{
-  width: 100%;
+#header img {
+    width: 100%;
 }
 
-#header #main-header-text {
-  position: absolute;
-  top: 50%;
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-transform: uppercase;
-  color: #fff;
-  
+#header h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    transform: translateY(-50%);
 }
 
-#about {
-  margin: 30px 0;
-  padding: 0 50px;
-}
+/* Style header - STOP */
 
-#about #about-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-#about .about-content{
-  text-align: center;
-}
+
+
+/* Style footer - START */
 
 #contact {
-  padding: 30px 50px;
-  background: #222;
+background-color: #222;
+color: #fff;
 }
 
-#contact #contact-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
+#contact address {
+font-style: normal;
 }
 
-#contact #contact-content {
-  text-align: center;
-  color: #fff;
+
+#contact a {
+color: #fff;
 }
 
-#contact #contact-content a {
-  color: #fff;
-}
+/* Style footer - STOP */
 
-#contact #contact-content a:hover {
-  color: #999;
-}
+
